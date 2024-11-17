@@ -17,7 +17,7 @@ export class ProjectsComponent implements OnInit {
       description: 'Biblioteca de logos SVG de las marcas más ffffffffffffffffffffffffffffffffffffffffffffffffffff populares. +10k visitas al mes. +2k SVGs descargados. Creado desde cero con Next.js, React y Tailwind CSS.',
       technologies: ['Next.js', 'Tailwind CSS'],
       visits: '+10k visitas',
-      imageUrl: 'https://concepto.de/wp-content/uploads/2014/10/proyecto-e1551127430285-800x412.jpg',
+      imageUrl: 'https://i.imgur.com/5RXtTSM.png',
       codeUrl: '#',
       previewUrl: '#'
     },

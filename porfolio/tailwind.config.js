@@ -17,11 +17,10 @@ module.exports = {
         }
       },
       animation: {
-        typing: 'typing 2s steps(25, end) forwards, blink 0.75s step-end infinite',
+        typing: 'typing 2s steps(25, end), blink 0.75s step-end infinite',
       },
     },
   },
   plugins: [],
-
 }
 
