@@ -9,12 +9,14 @@ import { Component } from '@angular/core';
   styleUrl: './about.component.css'
 })
 export class AboutComponent {
-  name: string = 'Miguel Ángel';
-  nickname: string = 'midu';
+  name: string = 'Nicolás';
+  nickname: string = 'Mateo';
   bio: string[] = [
-    'Empecé en la programación con un Amstrad, tenía 10 años. Actualmente estoy liderando equipos de desarrollo en multinacionales.',
-    'Algunos de mis éxitos incluyen colaborar con Mozilla para el desarrollo de las primeras apps en su sistema FirefoxOS. Aunque hoy está desaparecido, fue un gran avance en el mundo del desarrollo web.',
-    'Como creador de contenido, cuento con el canal de habla hispana más visto del mundo en la categoría de Software & Game Development en Twitch. Mi objetivo es mejorar la empleabilidad de la comunidad hispana y el acceso a contenido de calidad.'
+    'Desde pequeño siempre me han llamado la atención la tecnología. Mi primer acercamiento a la programación fue creando mis propios hackrooms de Pokémon para jugarlos en un emulador de GBA que tenía en mi móvil. A partir de ahí, mi curiosidad me llevó investigar sobre lenguajes de programación y me tope con Python, que fue fundamental para entender la lógica y desarrollar mis primeros scripts.',
+    'He estudiado desarrollo de aplicaciones web en Málaga, donde adquirí una sólida base de conocimientos técnicos y habilidades prácticas en programación y desarrollo web.',
+    'Hoy, con 20 años, sigo aprendiendo y ampliando mis conocimientos cada día, con el objetivo de crear proyectos innovadores y contribuir al desarrollo tecnológico de la comunidad.'
   ];
+
+
   profileImage: string = 'https://upload.wikimedia.org/wikipedia/commons/b/bf/Foto_Perfil_.jpg';
 }

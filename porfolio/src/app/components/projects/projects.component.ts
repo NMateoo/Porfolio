@@ -13,21 +13,19 @@ import { CommonModule } from '@angular/common';
 export class ProjectsComponent implements OnInit {
   projects: Project[] = [
     {
-      title: 'SVGL - A beautiful library with SVG logos',
-      description: 'Biblioteca de logos SVG de las marcas más ffffffffffffffffffffffffffffffffffffffffffffffffffff populares. +10k visitas al mes. +2k SVGs descargados. Creado desde cero con Next.js, React y Tailwind CSS.',
-      technologies: ['Next.js', 'Tailwind CSS'],
-      visits: '+10k visitas',
+      title: 'Proyecto TGF',
+      description: 'Un blog interactivo donde los usuarios pueden publicar, categorizar y explorar posts de otros usuarios. Incluye funcionalidades de autenticación, manejo de categorías y diseño responsive.',
+      technologies: ['Angular', 'Java', 'Spring Boot', 'Tailwind CSS', 'SQL'],
       imageUrl: 'https://i.imgur.com/5RXtTSM.png',
-      codeUrl: '#',
-      previewUrl: '#'
+      codeUrl: 'https://github.com/NMateoo/TFG'
     },
     {
-      title: 'AdventJS - Retos de programación con JavaScript y TypeScript',
-      description: 'Plataforma gratuita con retos de programación. Más de 1 millón de visitas en un mes. +50k retos completados. Creada desde cero con Next.js, React y Tailwind CSS.',
-      technologies: ['Next.js', 'Tailwind CSS'],
+      title: 'Yuppo Downloader',
+      description: 'Descargardor automático de fotos de albunes Yuppo. Da una solución practica a los usuarios que quieran descargar albunes de Yuppo y no quieran hacerlo manualmente. Desarrollado en Python.',
+      technologies: ['Python'],
       visits: '+1 millón de visitas',
-      imageUrl: 'assets/adventjs-logo.png',
-      previewUrl: '#'
+      imageUrl: 'https://i.imgur.com/nEsNcpA.png',
+      codeUrl: 'https://github.com/NMateoo/Yuppo-Downloader'
     }
   ];
 
