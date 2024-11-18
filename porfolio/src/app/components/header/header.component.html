@@ -1,23 +1,23 @@
-<nav class="w-full md:w-1/2 lg:w-1/3 mx-auto p-2 flex justify-center items-center fixed top-10 left-0 right-0 transition-all duration-500 ease-in-out border-transparent z-10"
+<nav class="w-1/3 md:w-1/2 lg:w-1/2 mx-auto p-2 justify-center items-center fixed top-10 left-0 right-0 transition-all duration-500 ease-in-out border-transparent z-10 max-w-screen-lg overflow-hidden lg:flex hidden"
     [ngClass]="{
         'bg-white/80 dark:bg-gray-700/80 backdrop-blur-sm border border-gray-300 dark:border-gray-600 rounded-full': scrolled
     }">
-    <ul class="flex flex-col md:flex-row md:space-x-5 space-y-3 md:space-y-0 text-slate-950 dark:text-slate-200 font-medium text-lg">
-        <li>
-            <a href="#experience" class="transition-all duration-500 ease-in-out hover:text-lime-500 dark:hover:text-lime-300 hover:underline underline-offset-4 decoration-2 decoration-lime-400 dark:decoration-lime-300">Experiencia</a>
-        </li>
-        <li>
-            <a href="#projects" class="transition-all duration-500 ease-in-out hover:text-lime-500 dark:hover:text-lime-300 hover:underline underline-offset-4 decoration-2 decoration-lime-400 dark:decoration-lime-300">Proyectos</a>
-        </li>
-        <li>
-            <a href="#about" class="transition-all duration-500 ease-in-out hover:text-lime-500 dark:hover:text-lime-300 hover:underline underline-offset-4 decoration-2 decoration-lime-400 dark:decoration-lime-300">Sobre mí</a>
-        </li>
-        <li>
-            <a href="#contact" class="transition-all duration-500 ease-in-out hover:text-lime-500 dark:hover:text-lime-300 hover:underline underline-offset-4 decoration-2 decoration-lime-400 dark:decoration-lime-300">Contacto</a>
-        </li>
-        <li>
-            <i [ngClass]="isDarkMode ? 'fa-solid fa-sun' : 'fa-solid fa-moon'" (click)="toggleDarkMode()"
-                class="text-xl transition-all duration-500 ease-in-out hover:text-lime-500 dark:hover:text-lime-300 cursor-pointer active:rotate-180"></i>
-        </li>
-    </ul>
+  <ul class="flex flex-row justify-center items-center space-x-5 text-slate-950 dark:text-slate-200 font-medium text-lg break-words">
+    <li>
+      <a href="#experience" class="transition-all duration-500 ease-in-out hover:text-lime-500 dark:hover:text-lime-300 hover:underline underline-offset-4 decoration-2 decoration-lime-400 dark:decoration-lime-300">Experiencia</a>
+    </li>
+    <li>
+      <a href="#projects" class="transition-all duration-500 ease-in-out hover:text-lime-500 dark:hover:text-lime-300 hover:underline underline-offset-4 decoration-2 decoration-lime-400 dark:decoration-lime-300">Proyectos</a>
+    </li>
+    <li>
+      <a href="#about" class="transition-all duration-500 ease-in-out hover:text-lime-500 dark:hover:text-lime-300 hover:underline underline-offset-4 decoration-2 decoration-lime-400 dark:decoration-lime-300">Sobre mí</a>
+    </li>
+    <li>
+      <a href="#contact" class="transition-all duration-500 ease-in-out hover:text-lime-500 dark:hover:text-lime-300 hover:underline underline-offset-4 decoration-2 decoration-lime-400 dark:decoration-lime-300">Contacto</a>
+    </li>
+    <li>
+      <i [ngClass]="isDarkMode ? 'fa-solid fa-sun' : 'fa-solid fa-moon'" (click)="toggleDarkMode()"
+        class="text-xl transition-all duration-500 ease-in-out hover:text-lime-500 dark:hover:text-lime-300 cursor-pointer active:rotate-180"></i>
+    </li>
+  </ul>
 </nav>
